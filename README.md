@@ -46,7 +46,7 @@ Surveillance Camera Footage
         ▼
   Annotated Output Images
   + occupancy_summary.csv
-
+```
 
 ---
 
