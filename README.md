@@ -14,7 +14,7 @@ This project processes top-down aerial footage from real parking lot surveillanc
 
 
 ### Occupancy Classification
-![Red = occupied, green = vacant](sample_outputs/occupancy_overlay.jpg)
+![Red = occupied, green = vacant](sample_outputs/occupancy_overlay.png)
 
 ---
 
