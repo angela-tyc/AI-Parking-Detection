@@ -29,7 +29,7 @@ This project processes top-down aerial footage from real parking lot surveillanc
 
 ## Pipeline
 
-
+```
 Surveillance Camera Footage
         │
         ▼
