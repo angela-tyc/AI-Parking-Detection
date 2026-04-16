@@ -12,6 +12,7 @@ This project processes top-down aerial footage from real parking lot surveillanc
 ### Detection Output
 ![YOLOv8 detection with confidence scores](sample_outputs/detection_output.jpg)
 
+
 ### Occupancy Classification
 ![Red = occupied, green = vacant](sample_outputs/occupancy_overlay.jpg)
 
