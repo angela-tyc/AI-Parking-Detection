@@ -8,7 +8,12 @@ A computer vision pipeline to detect vehicles and parking spaces from surveillan
 
 This project processes top-down aerial footage from real parking lot surveillance cameras. A YOLOv8 model was trained to detect two classes — cars and parking spaces — and an IoU-based occupancy logic layer determines which spaces are taken. Results are visualized with color-coded bounding boxes and exported as a CSV summary report.
 
-```markdown### Detection Output![YOLOv8 detection with confidence scores](sample_outputs/detection_output.jpg)### Occupancy Classification![Red = occupied, green = vacant](sample_outputs/occupancy_overlay.jpg)
+
+### Detection Output
+![YOLOv8 detection with confidence scores](sample_outputs/detection_output.jpg)
+
+### Occupancy Classification
+![Red = occupied, green = vacant](sample_outputs/occupancy_overlay.jpg)
 
 ---
 
@@ -23,7 +28,7 @@ This project processes top-down aerial footage from real parking lot surveillanc
 
 ## Pipeline
 
-```
+
 Surveillance Camera Footage
         │
         ▼
@@ -40,7 +45,7 @@ Surveillance Camera Footage
         ▼
   Annotated Output Images
   + occupancy_summary.csv
-```
+
 
 ---
 
@@ -112,7 +117,8 @@ names:
 
 
 
-```markdown### Training Curves![Loss, precision, recall, mAP over 50 epochs](sample_outputs/training_curves.png)
+### Training Curves
+![Loss, precision, recall, mAP over 50 epochs](sample_outputs/training_curves.png)
 ---
 
 ## Occupancy Logic
